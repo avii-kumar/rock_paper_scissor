@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+
+</head>
+<body>
+    <div class="align">
+    <h1>Rock Paper Scissor</h1>
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="rock.png" alt="Rock">
+        </div>
+    
+        <div class="choice" id="paper">
+            <img src="paper.png" alt="Paper">
+        </div>
+    
+        <div class="choice" id="scissors">
+            <img src="scissors.png" alt="Scissors">
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user">0</p>
+            <p>You</p>
+        </div>
+
+        <div class="score">
+            <p id="comp">0</p>
+            <p>Computer</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your moves!</p>
+    </div>
+</div>
+
+<div class="rules">
+    <h3 id="rule-container">Rules</h3>
+    <div>The basic rules of <b>Rock, Paper, Scissors</b> are simple:
+        <ol>
+        <li> <b>Players:</b> The game is typically played between two players.</li>
+        
+        <li><b>Choices:</b> Each player simultaneously forms one of three possible shapes with their hand:
+            <ul>
+            <li>Rock (a closed fist)</li>
+            <li>Paper (an open hand)</li>
+            <li>Scissors (a fist with the index and middle fingers extended, forming a V)</li>
+            </ul>
+        <li> <b>Game Rules:</b>
+            <ul>
+           <li>Rock beats Scissors (Rock crushes Scissors)</li>
+           <li>Scissors beats Paper (Scissors cut Paper)</li>
+           <li>Paper beats Rock (Paper covers Rock)</li>
+            </ul></li>
+        <li><b>Draw:</b> If both players choose the same shape, the round is a draw.</li>
+        
+        <li><b>Objective:</b> The goal is to select the option that defeats your opponent's choice. The player whose choice wins gets a point, and the game can be played for a set number of rounds or until one player reaches a specified number of points.</li></ol>
+</div>
+</div>
+ <script src="scripts.js"></script>   
+</body>
+</html>
